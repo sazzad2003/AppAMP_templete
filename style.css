@@ -54,11 +54,10 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
     color: #010101;
 }
 .header span {
-    float: right;
     font-size: 27px;
     font-weight: 500;
-    margin-top: 16px;
-    margin-right: 103px;
+    position: relative;
+    top: 14px;
     transition: .3s;
 }
 .header span:hover{
@@ -67,6 +66,7 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .header img{
     width: 60px;
     float: left;
+    margin-right: 13px;
 }
 .header-logo{
     width: 30%;
@@ -76,9 +76,9 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 }
 .header-button{
     width: 15%;
+    text-align: right;
 }
-.primay-menu{}
-.primay-menu ul{}
+
 .primay-menu ul li {
     display: inline-block;
     padding: 0 11px;
@@ -98,7 +98,6 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .header-btn {
     display: inline-block;
     font-size: 18px;
-    border: 1px solid;
     border: 2px solid #6278df;
     padding: 10px 15px;
     border-radius: 5px;
@@ -188,6 +187,9 @@ body,h1,h2,h3,h4,h5,h6,p,a,span{
 .user-guide{
     background: #f7f9ff;
     padding: 100px 0;
+}
+.video iframe{
+    max-width: 100%;
 }
 .video{
     width: 48%;
