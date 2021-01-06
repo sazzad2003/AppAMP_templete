@@ -1,0 +1,694 @@
+@media (max-width:1920px){
+    .primay-menu ul li {
+        line-height: 1px;
+    }
+}
+@media (max-width:1370px){
+    .container {
+        padding-left: 20px;
+        padding-right: 27px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:1290px){
+    .header span {
+        font-size: 25px;
+        top: -20px;
+    }
+    .header img {
+        width: 57px;
+        float: none;
+    }
+    .primay-menu ul li {
+        line-height: 1px;
+    }
+    .bannar-content {
+        padding: 141px 0;
+    }
+    .bannar-content h1 {
+        font-size: 52px;
+        margin-bottom: 50px;
+    }
+    .bannar-content h3 {
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+    .defalt-btn {
+        font-size: 20px;
+    }
+    .video-content {
+        width: 50%;
+        padding:  0 29px;
+        box-sizing: border-box;
+    }
+    .user-guide h2 {
+        font-size: 37px;
+        margin-bottom: 15px;
+    }
+    .user-guide p {
+        font-size: 21px;
+    }
+    .service-title h1 {
+        font-size: 41px;
+        margin-bottom: 15px;
+        margin-top: 17px;
+    }
+    .service-box {
+        padding: 29px;
+    }
+    .pricing-section-title h2 {
+        font-size: 46px;
+        margin-bottom: 21px;
+    }
+    .pricing-section-title p {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+    .p-heading {
+        padding: 29px;
+    }
+    .team-heading h2 {
+        font-size: 37px;
+        margin-top: -35px;
+    }
+    .sub-title h2 {
+        font-size: 38px;
+    }
+    .sub-title p {
+        font-size: 22px;
+    }
+    .feedback-item::after {
+        top: 77px;
+        left: 169px;
+    }
+
+
+}
+
+@media (max-width:1200px){
+    .p-heading {
+        padding: 24px;
+    }
+    .p-heading h4 {
+        font-size: 24px;
+        margin-bottom: 23px;
+    }
+    .p-heading h1 {
+        font-size: 42px;
+    }
+    .p-heading span {
+        font-size: 18px;
+    }
+    .p-heading h3 {
+        font-size: 21px;
+        margin-top: 20px;
+    }
+    .pricing-table ul li {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .defalt-btn {
+        font-size: 17px;
+    }
+    .blog-title h2 {
+        font-size: 42px;
+    }
+    .member-bio p {
+        font-size: 15px;
+    }
+    .member-bio h3 {
+        font-size: 21px;
+    }
+    .p-heading p {
+        font-size: 18px;
+    }
+    .service-box {
+        padding: 16px;
+    }
+    .s-icon {
+        width: 47px;
+        font-size: 41px;
+    }
+    .s-content h2 {
+        font-size: 24px;
+    }
+    .b-words h3 {
+        font-size: 21px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    .b-words p {
+        font-size: 16px;
+        color: #767676;
+    }
+
+}
+
+
+
+.primay-menu ul li ul li {
+	margin-top: 10px;
+	line-height: 39px;
+	display: block;
+}
+
+
+@media (max-width:1075px){
+    .primay-menu ul li {
+        padding: 0 4px;
+    }
+    .primay-menu {
+        padding-left: 37px;
+    }
+    .p-heading {
+        height: 225px;
+    }
+    .blog-title p {
+        font-size: 19px;
+    }
+    .feedback-item p {
+        font-size: 19px;
+        padding: 39px;
+    }
+    .feedback-item::after {
+        top: 27px;
+        left: 139px;
+    }
+    .content-right-form p {
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    .defalt-input {
+        padding: 20px 17px;
+        font-size: 18px;
+    }
+
+
+}
+.primay-menu .bars-icon {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+.check-icon{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+
+@media (max-width:992px){
+    .header span {
+        top: -19px;
+    }
+    .primay-menu {
+        padding-left: 0;
+    }
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 31px;
+    }
+    .primay-menu ul{
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    }
+    .primay-menu .check-icon:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .header-btn {
+        position: absolute;
+        right: 10px;
+        top: 45px;
+    }
+    .primay-menu .bars-icon {
+        position: absolute !important;
+        left: 18px;
+        top: 58px;
+        font-size: 33px;
+        pointer-events: none;
+        color: #6278DF;
+        opacity: 1;
+        visibility: visible;
+        height: 100%;
+    }
+    .check-icon {
+        width: 34px;
+        height: 34px;
+        position: absolute;
+        left: 16px;
+        top: 60px;
+        opacity: 0;
+        cursor: pointer;
+        visibility: visible;
+    }
+    .primay-menu ul li {
+        display: block;
+        line-height: 61px;
+    }
+    .primay-menu ul li ul {
+        left: 97px;
+        top: -197%;
+    }
+    .user-guide p {
+        font-size: 19px;
+    }
+    .blog-content img {
+        width: 265px;
+    }
+    .service-box {
+        width: 48%;
+        height: 189px;
+    }
+    .pricing-table ul span {
+        font-size: 26px;
+    }
+    .pricing-table ul li {
+        font-size: 17px;
+    }
+
+
+}
+
+@media (max-width:930px){
+    .feedback-item p {
+        font-size: 16px;
+        padding: 29px;
+    }
+    .feedback-item::after {
+        top: -60px;
+        left: 117px;
+    }
+    .user-bio p {
+        font-size: 14px;
+    }
+    .user-bio h3 {
+        font-size: 14px;
+        margin-top: 11px;
+    }
+    .feedback-user-item img {
+        width: 63px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width:900px){
+    .feedback-item::after {
+        top: -31px;
+        left: 117px;
+    }
+    .p-heading p {
+        font-size: 16px;
+    }
+    .user-guide p {
+        font-size: 17px;
+    }
+    .user-guide h2 {
+        font-size: 31px;
+    }
+    .blog-content img {
+        width: 229px;
+    }
+    .b-words h3 {
+        font-size: 17px;
+        margin-top: 16px;
+        margin-bottom: 10px;
+    }
+    .b-words p {
+        font-size: 13px;
+        color: #767676;
+    }
+    .member-bio h3 {
+        font-size: 15px;
+    }
+    .member-bio p {
+        font-size: 12px;
+    }
+    .pricing-table ul {
+        margin-left: 19px;
+    }
+}
+
+@media (max-width:800px){
+    .service-box {
+        height: 197px;
+    }
+    .pricing-section-title h2 {
+        font-size: 34px;
+    }
+    .pricing-section-title p {
+        font-size: 18px;
+    }
+    .pricing-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .header {
+        position: relative;
+    }
+    .bannar-content {
+        padding: 104px 0;
+        margin-top: 0;
+    }
+    .bannar-content h3 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .bannar-content h1 {
+        font-size: 41px;
+        margin-bottom: 42px;
+    }
+    .defalt-btn {
+        padding: 16px 20px;
+        font-size: 15px;
+    }
+    .service-title p {
+        color: #767676;
+        font-size: 21px;
+    }
+    .service-title h1 {
+        font-size: 32px;
+    }
+    .s-content h2 {
+        font-size: 19px;
+    }
+    .p-heading {
+        height: 184px;
+    }
+    .pricing-item {
+        padding-bottom: 57px;
+    }
+    .member {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:765px){
+    .video iframe {
+        width: 100%;
+    }
+    .video {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video-content {
+        width: 100%;
+    }
+    .user-guide {
+        background: #f7f9ff;
+        padding: 44px 0;
+    }
+    .blog-title {
+        margin-top: 38px;
+    }
+    .blog-title-left {
+        width: 100%;
+    }
+    .blog-title-right {
+        width: 100%;
+    }
+    .blog-title p {
+        font-size: 17px;
+        bottom: 28px;
+        left: 0px;
+    }
+    .blog-content img {
+        width: 370px;
+    }
+    .blog-content-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .blog-content-right {
+        width: 100%;
+    }
+    .b-words h3 {
+        font-size: 31px;
+        margin-top: 42px;
+    }
+    .b-words p {
+        font-size: 20px;
+    }
+    .feedback-user-item img {
+        width: 56px;
+        margin-left: 31px;
+    }
+    .feedback-item::after {
+        top: -9px;
+        left: 96px;
+    }
+    .google-map {
+        width: 100%;
+    }
+    .content-right-form {
+        width: 100%;
+    }
+    .footer p {
+        font-size: 14px;
+    }
+    .sub-title p {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+    .sub-title h2 {
+        font-size: 27px;
+        margin-bottom: 37px;
+    }
+    .feedback {
+        padding: 75px 0;
+        background: #f7f9ff;
+    }
+    .s-icon {
+        width: 40px;
+        font-size: 34px;
+        margin-right: 16px;
+    }
+    .s-content h2 {
+        font-size: 18px;
+    }
+    .s-content h2 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .s-content p {
+        font-size: 16px;
+    }
+
+
+}
+@media (max-width:700px){
+    .feedback-item::after {
+        display: none;
+    }
+    .feedback-item p {
+        font-size: 14px;
+        padding: 29px;
+    }
+}
+
+@media (max-width:650px){
+    .feedback-item::after {
+        top: 80px;
+        left: 74px;
+    }
+}
+@media (max-width:585px){
+    .feedback-item::after {
+        top: 105px;
+        left: 74px;
+    }
+    .blog-content img {
+        width: 316px;
+    }
+    .service-box {
+        width: 100%;
+        height: 145px;
+    }
+    .service-title h1 {
+        font-size: 25px;
+    }
+    .service-title p {
+        font-size: 17px;
+    }
+    .defalt-input {
+        padding: 9px 17px;
+        font-size: 14px;
+    }
+    .submit-btn {
+        width: 116px;
+        padding: 9px 12px;
+        font-size: 18px;
+    }
+    .b-words p {
+        font-size: 18px;
+    }
+    .b-words h3 {
+        font-size: 26px;
+        margin-top: 42px;
+    }
+    .feedback-item {
+        width: 100%;
+        margin-bottom: 112px;
+    }
+    .feedback-user {
+        display: none;
+    }
+    .feedback-item {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .feedback-item::after {
+        display: none;
+    }
+}
+
+@media (max-width:530px){
+    .blog-content img {
+        width: 270px;
+    }
+}
+
+@media (max-width:495px){
+    .b-words p {
+        font-size: 15px;
+    }
+    .b-words h3 {
+        font-size: 19px;
+        margin-top: 16px;
+    }
+    .blog-content img {
+        width: 225px;
+    }
+}
+
+@media (max-width:420px){
+    .blog-content img {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+    .b-words {
+        padding: 15px;
+    }
+    .service {
+        padding: 1px;
+    }
+}
+
+@media (max-width:350px){
+    .header span {
+        font-size: 20px;
+        top: -16px;
+    }
+    .header img {
+        width: 49px;
+        float: none;
+    }
+    .header-logo {
+        padding-bottom: 39px;
+    }
+    .header-btn {
+        font-size: 14px;
+    }
+    .pricing-table {
+        background: #f7f9ff;
+        padding: 4px;
+    }
+    .bannar-content h1 {
+        font-size: 28px;
+        margin-bottom: 37px;
+    }
+    .bannar-content h3 {
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+    .bannar-content {
+        padding: 58px 0;
+        margin-top: 0;
+    }
+    .defalt-btn {
+        padding: 10px 8px;
+        font-size: 10px;
+    }
+    .user-guide h2 {
+        font-size: 20px;
+    }
+    .user-guide p {
+        font-size: 11px;
+    }
+    .service-title p {
+        font-size: 13px;
+    }
+    .blog-title h2 {
+        font-size: 31px;
+    }
+    .blog-title p {
+        font-size: 14px;
+        left: 0px;
+    }
+    .feedback {
+        padding: 69px 0 5px 0;
+    }
+    .footer p {
+        font-size: 11px;
+    }
+    .p-heading h4 {
+        font-size: 19px;
+        margin-bottom: 11px;
+    }
+    .p-heading h1 {
+        font-size: 35px;
+    }
+    .p-heading span {
+        font-size: 12px;
+    }
+    .p-heading h3 {
+        font-size: 19px;
+        margin-top: 12px;
+    }
+    .p-heading p {
+        font-size: 14px;
+    }
+    .p-heading {
+        height: 172px;
+    }
+}
+@media (max-width:320px){
+    .defalt-input {
+        font-size: 13px;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .submit-btn {
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .subscribe {
+        padding: 62px 0;
+        background: #f7f9ff;
+    }
+    .sub-title p {
+        font-size: 15px;
+        margin-bottom: 11px;
+    }
+    .sub-title h2 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+    .sub-form {
+        margin-top: 16px;
+    }
+    .team-heading h2 {
+        font-size: 23px;
+        margin-top: -5px;
+    }
+    .member {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team-member {
+        padding: 46px 0;
+    }
+
+}
